@@ -1,7 +1,6 @@
-stages:
-- stage: GamingStage
-  jobs:
-  - job: GamingJob
-    steps:
+# gaming.yml (Job Template - Build Repo)
+jobs:
+- job: GamingJob
+  steps:
     - script: echo "Hello, World!"
       displayName: "Run Hello World Script"
