@@ -29,6 +29,7 @@ jobs:
 
     pool:
       vmImage: ubuntu-latest
+      setps:
     - script: |
         echo Add other tasks to build, test, and deploy your project.
         echo See https://aka.ms/yaml
