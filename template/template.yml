@@ -2,7 +2,7 @@
 jobs:
 - job: GamingJob
   pool:
-    vmImage: 'ubuntu-latest'  # Microsoft-hosted agent
+    vmImage: 'windows-latest'  # Microsoft-hosted Windows agent
   steps:
     - script: echo "Hello, World!"
       displayName: "Run Hello World Script"
