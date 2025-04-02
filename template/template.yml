@@ -2,7 +2,7 @@
 jobs:
 - job: GamingJob
   pool:
-    vmImage: 'windows-latest'  # Microsoft-hosted Windows agent
+    name: 'selfHostedComputer'  # Microsoft-hosted Windows agent
   steps:
     - script: echo "Hello, World!"
       displayName: "Run Hello World Script"
