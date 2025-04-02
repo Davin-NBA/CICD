@@ -1,12 +1,7 @@
-jobs:
-  - job: build_docs
-
-    pool:
-      vmImage: ubuntu-latest
-      setps:
-    - script: |
-        echo Add other tasks to build, test, and deploy your project.
-        echo See https://aka.ms/yaml
-      displayName: 'Run a multi-line script'
-
-
+stages:
+- stage: GamingStage
+  jobs:
+  - job: GamingJob
+    steps:
+    - script: echo "Hello, World!"
+      displayName: "Run Hello World Script"
